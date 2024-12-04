@@ -1,110 +1,187 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Revive Wellness & Massage</title>
-  <!-- Import Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
-  <!-- Import Font Awesome ICONS -->  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-  <!-- Link to external CSS file -->
-  <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
-
-  <!-- Header section -->
-  <header>
-    <div class="logo-container">
-      <!-- Company logo -->
-      <img src="images/logo1.jpg" alt="Revive Wellness & Massage Logo" class="logo">
-    </div>
-    <!-- Navigation menu -->
-    <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#services">Usługi</a></li>
-        <li><a href="#about">O nas</a></li>
-        <li><a href="#contact">Kontakt</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- "About Us" section -->
-  <section id="about">
-    <h2>O nas</h2>
-    <p>Nasza firma oferuje usługi masażu, które pomagają Ci odzyskać równowagę i energię. Wykorzystujemy różnorodne techniki, aby dostosować nasze zabiegi do Twoich potrzeb...</p>
-  </section>
-
-  <!-- Services section -->
-  <section id="services">
-    <h2>Nasze Usługi</h2>
-    <div class="services-container">
-      <!-- Service cards -->
-      <div class="service-card">Elektromasaż</div>
-      <div class="service-card">Masaż Klasyczny</div>
-      <div class="service-card">Masaż Relaksacyjny</div>
-      <div class="service-card">Masaż Sportowy</div>
-      <div class="service-card">Masaż Terapeutyczny</div>
-      <div class="service-card">Masaż Rehabilitacyjny</div>
-    </div>
-  </section>
-
-  <!-- Gallery section -->
-  <section id="gallery">
-    <h2>Galeria</h2>
-    <div class="gallery-container">
-      <!-- Images in gallery -->
-      <img src="images/massage1.jpg" alt="Masaż relaksacyjny" class="gallery-item" loading="lazy">
-      <img src="images/massage2.jpg" alt="Masaż sportowy" class="gallery-item" loading="lazy">
-      <img src="images/massage3.jpg" alt="Masaż klasyczny" class="gallery-item" loading="lazy"> 
-    </div>
-  </section>
-
-  <!-- Contact section -->
-  <section id="contact">
-    <h2>Kontakt</h2>
-    <p>Masz pytania? Wypełnij formularz, a odezwiemy się najszybciej, jak to możliwe!</p>
-    <!-- Contact form -->
-    <form>
-      <div class="form-group">
-        <label for="name">Imię:</label>
-        <input type="text" id="name" name="name" placeholder="Twoje imię" required>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Revive Wellness & Massage</title>
+    <!-- Import Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Import Font Awesome ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Header section -->
+    <header>
+      <div class="logo-container">
+        <!-- Company logo -->
+        <img
+          src="images/logo1.jpg"
+          alt="Revive Wellness & Massage Logo"
+          class="logo"
+        />
       </div>
-      <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" placeholder="Twój email" required>
-      </div>
-      <div class="form-group">
-        <label for="message">Wiadomość:</label>
-        <textarea id="message" name="message" placeholder="Napisz swoją wiadomość" rows="5" required></textarea>
-      </div>
-      <button type="submit" class="btn-submit">Wyślij</button>
-    </form>
-  </section>
+      <!-- Navigation menu -->
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Usługi</a></li>
+          <li><a href="#about">O nas</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <!-- Footer section -->
-  <footer>
-    <p>© 2024 Revive Wellness & Massage</p>
-    <div class="social-media">
-      <!-- Ikona Facebooka z napisem -->
-      <a href="https://facebook.com" target="_blank" aria-label="Facebook">
-        <i class="fab fa-facebook-f"></i> Facebook
-      </a>
-  
-      <!-- Ikona Instagrama z napisem -->
-      <a href="https://instagram.com" target="_blank" aria-label="Instagram">
-        <i class="fab fa-instagram"></i> Instagram
-      </a>
-  
-      <!-- Ikona Twittera z napisem -->
-      <a href="https://twitter.com" target="_blank" aria-label="Twitter">
-        <i class="fab fa-twitter"></i> Twitter
-      </a>
-    </div>
-  </footer>
+    <!-- "About Us" section -->
+    <section id="about">
+      <div class="about">
+        <h2>O nas</h2>
+        <p>
+          Witaj w <strong>Revive Wellness & Massage</strong>, miejscu, które
+          oferuje relaks, zdrowie i dobre samopoczucie. Naszym celem jest
+          zapewnienie Ci kompleksowej opieki zdrowotnej poprzez szeroki zakres
+          usług masażu, które są dostosowane do Twoich indywidualnych potrzeb.
+        </p>
+        <p>
+          Nasza filozofia opiera się na naturalnych metodach leczenia, które
+          pomagają odzyskać równowagę ciała i umysłu. Każdy masaż wykonywany
+          jest przez profesjonalnego masażystę, który stawia na najwyższą jakość
+          usług i komfort klienta.
+        </p>
+      </div>
+      <div class="mission">
+        <h3>Nasza misja</h3>
+        <p>
+          Naszą misją jest dostarczenie Ci najnowszych i najskuteczniejszych
+          technik masażu, które pomogą Ci odzyskać zdrowie, odprężenie i
+          równowagę. Oferujemy masaże relaksacyjne, sportowe, lecznicze oraz
+          elektromasaż, które pomagają w walce z bólami ciała, stresem i
+          zmęczeniem.
+        </p>
+      </div>
+      <div class="team">
+        <h3>Nasz zespół</h3>
+        <p>
+          W naszym zespole pracują wykwalifikowani specjaliści, którzy mają
+          wieloletnie doświadczenie w branży masażu. Jesteśmy pasjonatami
+          zdrowia i wellness, a nasza praca to nasza pasja. Dzięki temu możesz
+          mieć pewność, że jesteś w dobrych rękach.
+        </p>
+      </div>
+    </section>
 
-  <!-- Link to external JavaScript file -->
-  <script src="js/script.js"></script>
-</body>
+    <!-- Services section -->
+    <section id="services">
+      <h2>Nasze Usługi</h2>
+      <div class="services-container">
+        <!-- Service cards -->
+        <div class="service-card">Elektromasaż</div>
+        <div class="service-card">Masaż Klasyczny</div>
+        <div class="service-card">Masaż Relaksacyjny</div>
+        <div class="service-card">Masaż Sportowy</div>
+        <div class="service-card">Masaż Terapeutyczny</div>
+        <div class="service-card">Masaż Rehabilitacyjny</div>
+      </div>
+    </section>
+
+    <!-- Gallery section -->
+    <section id="gallery">
+      <h2>Galeria</h2>
+      <div class="gallery-container">
+        <!-- Images in gallery -->
+        <img
+          src="images/massage1.jpg"
+          alt="Masaż relaksacyjny"
+          class="gallery-item"
+          loading="lazy"
+        />
+        <img
+          src="images/massage2.jpg"
+          alt="Masaż sportowy"
+          class="gallery-item"
+          loading="lazy"
+        />
+        <img
+          src="images/massage3.jpg"
+          alt="Masaż klasyczny"
+          class="gallery-item"
+          loading="lazy"
+        />
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact">
+      <h2>Kontakt</h2>
+      <p>
+        Masz pytania? Wypełnij formularz, a odezwiemy się najszybciej, jak to
+        możliwe!
+      </p>
+      <!-- Contact form -->
+      <form>
+        <div class="form-group">
+          <label for="name">Imię:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Twoje imię"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Twój email"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="message">Wiadomość:</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Napisz swoją wiadomość"
+            rows="5"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn-submit">Wyślij</button>
+      </form>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+      <p>© 2024 Revive Wellness & Massage</p>
+      <div class="social-media">
+        <!-- Ikona Facebooka z napisem -->
+        <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+          <i class="fab fa-facebook-f"></i> Facebook
+        </a>
+
+        <!-- Ikona Instagrama z napisem -->
+        <a href="https://instagram.com" target="_blank" aria-label="Instagram">
+          <i class="fab fa-instagram"></i> Instagram
+        </a>
+
+        <!-- Ikona Twittera z napisem -->
+        <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+          <i class="fab fa-twitter"></i> Twitter
+        </a>
+      </div>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
